@@ -1,3 +1,17 @@
+/*
+Missing letters
+
+Find the missing letter in the passed letter range and return it.
+If all letters are present in the range, return undefined.
+
+fearNotLetter("abce") should return the string d.
+fearNotLetter("abcdefghjklmno") should return the string i.
+fearNotLetter("stvwx") should return the string u.
+fearNotLetter("bcdf") should return the string e.
+fearNotLetter("abcdefghijklmnopqrstuvwxyz") should return undefined.
+*/
+
+
 function fearNotLetter(str) {
 	let abcFull = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 	//              0   1   2   3   4   5   6   7   8   9   10  11  12 13  14  15  16  17  18  19  20  21  22  23  24  25
